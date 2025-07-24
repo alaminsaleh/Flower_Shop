@@ -1,0 +1,50 @@
+header {
+    max-width: 1140px;
+    border: 2px solid tomato;
+    margin: 0 auto;
+}
+
+/* common styles */
+.display-flex {
+    display: flex;
+}
+
+.nav-style {
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.nav-btn {
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-btn a {
+    text-decoration: none;
+}
+
+.banner {
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    width: 50%;
+    border: 2px solid blue;
+}
+
+.banner-img {
+    width: 50%;
+    border: 2px solid greenyellow;
+    
+}
+
+
+
+
+
+@media screen {
+    
+}
