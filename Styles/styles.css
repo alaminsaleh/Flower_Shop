@@ -214,14 +214,11 @@ main,
     display: flex;
     flex-direction: column;
     line-height: 2.5;
-    justify-content: center;
+    color: #6B7280;
 }
 
 .social {
-    /* justify-content: center; */
-    /* align-items: center; */
     gap: 30px;
-
 }
 
 .social img {
@@ -313,5 +310,17 @@ main,
     .form-tag button {
         width: 100px;
     }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* border: 2px solid red; */
+        margin: 0 auto;
+        padding-top: 0px;
+        gap: 10px;
+        margin: 40px 0px;
+        
+    }
+
 
 }
