@@ -1,5 +1,6 @@
 header,
-main {
+main,
+.footer {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -198,6 +199,36 @@ main {
     color: white;
 }
 
+/* Footer */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 2px solid red;
+    margin: 0 auto;
+    padding-top: 30px;
+    gap: 60px;
+}
+
+.footer-btn a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+    justify-content: center;
+}
+
+.social {
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 30px;
+
+}
+
+.social img {
+    height: 30px;
+    width: 30px;
+}
+
 /* media query */
 
 @media screen and (max-width:576px) {
@@ -284,4 +315,3 @@ main {
     }
 
 }
-
